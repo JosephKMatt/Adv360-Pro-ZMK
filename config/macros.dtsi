@@ -1,8 +1,44 @@
-macro_quotes: macro_quotes{
+macro_line_delete: macro_line_delete{
 compatible = "zmk,behavior-macro";
-label = "macro_quotes";
+label = "macro_line_delete";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp LS(END)>, <&kp DEL>;
+};
+macro_macro_juquote: macro_macro_juquote{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_juquote";
+#binding-cells = <0>;
+bindings = <&kp DEL>, <&kp DEL>, <&kp DOWN>, <&kp LEFT>, <&kp LEFT>;
+};
+macro_macro_jquote: macro_macro_jquote{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_jquote";
+#binding-cells = <0>;
+bindings = <&kp LS(PERIOD)>, <&kp SPACE>, <&kp ENTER>, <&kp LEFT>, <&kp LEFT>;
+};
+macro_macro_unmerge: macro_macro_unmerge{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_unmerge";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp M>, <&kp U>;
+};
+macro_macro_merge: macro_macro_merge{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_merge";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp M>, <&kp M>;
+};
+macro_macro_rightalig: macro_macro_rightalig{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_rightalig";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp A>, <&kp R>;
+};
+macro_macro_leftalign: macro_macro_leftalign{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_leftalign";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp A>, <&kp L>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
