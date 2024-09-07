@@ -1,3 +1,9 @@
+macro_line_del_fwd: macro_line_del_fwd{
+compatible = "zmk,behavior-macro";
+label = "macro_line_del_fwd";
+#binding-cells = <0>;
+bindings = <&kp LS(HOME)>, <&kp DEL>;
+};
 macro_line_delete: macro_line_delete{
 compatible = "zmk,behavior-macro";
 label = "macro_line_delete";
