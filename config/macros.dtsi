@@ -14,7 +14,7 @@ macro_macro_jquote: macro_macro_jquote{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_jquote";
 #binding-cells = <0>;
-bindings = <&kp LS(PERIOD)>, <&kp SPACE>, <&kp ENTER>, <&kp LEFT>, <&kp LEFT>;
+bindings = <&kp LS(PERIOD)>, <&kp SPACE>, <&kp ENTER>;
 };
 macro_macro_unmerge: macro_macro_unmerge{
 compatible = "zmk,behavior-macro";
