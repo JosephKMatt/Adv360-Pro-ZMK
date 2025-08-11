@@ -53,7 +53,7 @@
 &kp INT_RO           &kp AT               &kp AT               &kp LEFT_BRACKET     &kp PIPE             &kp RBKT             &none                                       &none   &trans               &trans               &trans               &trans            &trans                    &trans
 &kp INTERNATIONAL_1  &kp INTERNATIONAL_2  &kp INTERNATIONAL_3  &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INTERNATIONAL_6  &none   &trans  &trans      &trans  &trans  &none   &kp INTERNATIONAL_7  &kp INTERNATIONAL_8  &kp INTERNATIONAL_9  &kp INT_YEN       &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN
 &kp INT1             &kp INT2             &kp INT3             &kp INT4             &kp INT5             &kp INT6                             &trans      &trans                  &kp INT7             &kp INT8             &kp INT9             &kp INT_MUHENKAN  &kp INT_KPJPCOMMA         &kp INT_KANA
-&trans               &trans               &kp CARET            &trans               &trans                                    &trans  &trans  &trans      &trans  &trans  &trans                       &trans               &trans               &trans            &trans                    &trans
+&trans               &trans               &kp CARET            &trans               &trans                                    &trans  &trans  &trans      &trans  &trans  &trans                       &kp AT_SIGN          &kp COLON            &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &trans
             >;
         };
 
