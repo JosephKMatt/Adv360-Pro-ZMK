@@ -49,11 +49,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1             &kp F2         &kp F3            &kp F4     &kp F5          &kp F6           &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&kp DOUBLE_QUOTES  &kp DQT        &kp GRAVE         &trans     &trans          &trans           &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&kp TILDE          &kp TILDE2     &kp SINGLE_QUOTE  &kp SQT    &kp APOSTROPHE  &kp APOS         &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&kp CARET          &kp LC(MINUS)  &kp UNDERSCORE    &kp UNDER  &kp EQUAL       &kp NON_US_HASH                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans             &trans         &kp PLUS          &trans     &trans                           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3     &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans     &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &kp EQUAL  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
